@@ -1,0 +1,33 @@
+Na magazynie:
+
+• Przednia tarcza hamulcowa A1/A2/A3/Bora/Cordoba
+   Producent: A.B.S
+   Stan: nowy
+   Dostępna ilość: 27 szt.
+   Cena: 1000 UAH/szt.
+   Nadaje się do samochodów: Audi A3 2011-2013,
+                      Audi TT 2010-2014,
+                      Audi A1 2012-2015,
+   Numer pozycji: 4
+
+• Tylna tarcza hamulcowa. A1 14-18
+   Producent: A.B.S
+   Stan: nowy
+   Dostępna ilość: 22 szt.
+   Cena: 950 UAH/szt.
+   Nadaje się do samochodów: Audi A3 2011-2013,
+                      Audi TT 2010-2014,
+                      Audi A1 2012-2015,
+                      Audi TT RS 2010-2014,
+                      Audi Q3 2011-2018,
+                      Audi Q2 2016-2018
+   Numer pozycji: 5
+
+• Tarcza hamulcowa 312X25 5X112
+   Producent: A.B.S
+   Stan: nowy
+   Dostępna ilość: 8 szt.
+   Cena: 900 UAH/szt.
+   Nadaje się do samochodów: Audi A3 2011-2013,
+                      Audi TT 2010-2014,
+   Numer pozycji: 5

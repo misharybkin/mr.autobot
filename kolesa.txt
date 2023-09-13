@@ -1,0 +1,22 @@
+Na magazynie:
+
+• Opony do samochodu Audi A3
+   Rozmiar: 225/45 R17
+   Stan: nowy
+   Dostępna ilość: 20 szt.
+   Cena: 1000 UAH/szt.
+   Numer stanowiska: 1
+
+• Felgi Audi A4
+   Rozmiar: 235/40 R17
+   Stan: używany
+   Dostępna ilość: 6 szt.
+   Cena: 400 UAH/szt.
+   Numer stanowiska: 2
+
+• Koła do samochodu Audi Q5
+   Rozmiar: 235/55 R19
+   Stan: nowy
+   Dostępna ilość: 5 szt.
+   Cena: 800 UAH/szt.
+   Numer pozycji: 3
