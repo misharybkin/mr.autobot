@@ -197,13 +197,18 @@ class Ogloszenia:
 		bot.send_message(message.chat.id, "Wybierz markę samochodu 🚘", parse_mode='html', reply_markup=markup)
 
 
+
+#definicja klasy abstrakcyjnej dla każdego modelu auta
 class Auto(ABC):
 	@abstractmethod
 	@bot.message_handler(content_types=['text'])
+	#definicja metody która będzie tzw. ekranem powitalnym
 	def first_action(self, message):
 		pass
+	#definicja metody która będzie zwracała listę sprzedawanych kół dla każdej marki samochodów
 	def kolesa(self, message):
 		pass
+	#definicja metody która będzie zwracała listę sprzedawanych silników dla każdej marki samochodów
 	def dvigatel(self, message):
 		pass
 	def torm_dyski(self, message):
@@ -704,6 +709,8 @@ class Audi:
 		#bot.send_message(message.chat.id, list_audi_inne, parse_mode='html', reply_markup=inline_markup )
 
 
+#Niżej przedstawione są metody pobierania danych od użytkowników
+
 def get_client_info(message):
     chat_id = message.chat.id
     bot.send_message(chat_id, "Proszę podać imię:")
@@ -775,10 +782,10 @@ def process_order(message, zamowienie_id, klient_id):
 	chat_id = message.chat.id
 	ilosc = message.text
 	conn = sqlite3.connect('autobot_pl.db')
-	print("Connection established")
+	#print("Connection established")
 	c = conn.cursor()
 
-    # Додаємо клієнта до бази даних
+    # 
 	#c.execute("INSERT INTO Klienci (Imie, Nazwisko, Nr_telefonu, Email) VALUES (?, ?, ?, ?)",
      #         (imie, nazwisko, nr_telefonu, email))
 	#KlientID = c.lastrowid
